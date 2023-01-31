@@ -1,0 +1,9 @@
+# Consistency rules
+
+# numerical rules
+Tasa.natalidad > 0
+Tasa.mortalidad < 50
+
+
+# categorical rules
+GRUPOS %in% c("africa", "asia", "iberoamerica", "EuropaOriental", "ORIENTE MEDIO", "EO-NA_JAPON_AUSTR_NZ")
